@@ -135,6 +135,7 @@
 }
 
 .lifeservice ul li {
+    position: relative;
     float: left;
     width: 63px;
     height: 71px;
@@ -149,6 +150,12 @@
     width: 24px;
     height: 28px;
     background: url(../images/icons.png) no-repeat -19px -15px;
+}
+
+.lifeservice ul li b {
+    position: absolute;
+    top: -3px;
+    right: 0;
 }
 
 .bargain {
